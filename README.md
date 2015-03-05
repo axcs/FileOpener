@@ -5,7 +5,7 @@ Simple plugin which allows you to open popular files (PDF, WORD, EXCEL, JPG, GIF
 
 Adding the Plugin to your project
 -----------
-    $ cordova plugin add https://github.com/don/FileOpener.git
+    $ cordova plugin add https://github.com/axcs/FileOpener.git
 
 Using the plugin
 ===========
@@ -36,14 +36,14 @@ Initial release
 
 REMARKS
 ------------
-Please have in mind, that the plugin can open any local file on your Android device, so in some cases you may have to secure the code better. For example you could store your application folder ``````file:///sdcard/Android/data/com.example.application/`````` in your ``````FileOpener.java`````` file instead of ``````fileopener.js``````. 
+Please have in mind, that the plugin can open any local file on your Android device, so in some cases you may have to secure the code better. For example you could store your application folder ``````file:///sdcard/Android/data/com.example.application/`````` in your ``````FileOpener.java`````` file instead of ``````fileopener.js``````.
 
 You may also change the way the plugin checks file extension (currently it uses simple ``````contains`````` function.
 
 CONTRIBUTION
 -------------
 I wrote this plugin basing on the great VideoPlayer plugin by Macdonst (https://github.com/macdonst/VideoPlayer).
-Big thanks go also to Raymond Camden whose article about Intents inspired me to write plugin (http://www.raymondcamden.com/index.cfm/2012/5/1/Example-of-Intents-with-PhoneGap). 
+Big thanks go also to Raymond Camden whose article about Intents inspired me to write plugin (http://www.raymondcamden.com/index.cfm/2012/5/1/Example-of-Intents-with-PhoneGap).
 
 
 LICENSE

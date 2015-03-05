@@ -74,6 +74,10 @@ public class FileOpener extends CordovaPlugin {
             // WAV audio file
             intent = new Intent(Intent.ACTION_VIEW);
             intent.setDataAndType(uri, "audio/x-wav");
+        } else if(url.contains(".amr")) {
+            // AMR audio file
+            intent = new Intent(Intent.ACTION_VIEW);
+            intent.setDataAndType(uri, "audio/amr");
         } else if(url.contains(".gif")) {
             // GIF file
             intent = new Intent(Intent.ACTION_VIEW);
